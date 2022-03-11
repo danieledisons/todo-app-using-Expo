@@ -11,7 +11,6 @@ export default function App() {
     Keyboard.dismiss();
     setTaskItems([...taskItems, task]);
     setTask(null);
-    // console.log(task);
   }
   const completeTask = (index) =>{
     let itemsCopy = [...taskItems];
